@@ -1,0 +1,37 @@
+#title, #rating {
+    width: 250px;
+    margin-left: 10px;
+}
+
+.labels {
+    margin-left: 50px;
+}
+
+#part2 {
+    background-color: #535878;
+    color: #c8a8e9;
+    min-height: 100vh; /* Change height to min-height for better responsiveness */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.text {
+    margin-left: 50px;
+    margin-bottom: 20px; /* Reduce margin bottom */
+}
+
+#ratings {
+    margin-top: 20px; /* Adjust margin top */
+    overflow-x: auto; /* Add horizontal scroll for overflow */
+}
+
+/* Additional styling for table */
+table {
+    width: 100%; /* Ensure table fills its container */
+    border-collapse: collapse; /* Collapse table borders */
+}
+
+th, td {
+    padding: 10px; /* Add padding for table cells */
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid #c8a8e9; /* Add bottom border to table rows */
+}
